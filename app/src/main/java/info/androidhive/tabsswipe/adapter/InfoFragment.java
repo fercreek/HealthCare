@@ -18,13 +18,14 @@ import android.widget.Toast;
 
 public class InfoFragment extends Fragment {
 
-    private EditText peso;
+    private TextView pesoActIdealFrag;
+    private EditText pesoActInfoFrag;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
         View rootView = inflater.inflate(R.layout.fragment_info, container, false);
-    
+
         return rootView;
     }
 
@@ -32,7 +33,7 @@ public class InfoFragment extends Fragment {
     public void onStart() {
         super.onStart();
 
-        peso = (EditText)getActivity().findViewById(R.id.peso);
+
 
         Button update = (Button)getActivity().findViewById(R.id.infoButton);
         update.setOnClickListener(new View.OnClickListener() {
@@ -41,6 +42,10 @@ public class InfoFragment extends Fragment {
                 TextView msg = (TextView)getActivity().findViewById(R.id.updateNot);
                 Toast.makeText(getActivity(), msg.getText(), Toast.LENGTH_SHORT).show();
 
+                pesoActInfoFrag = (EditText)getActivity().findViewById(R.id.peso);
+
+                pesoActIdealFrag = (TextView)getActivity().findViewById(R.id.pesoAct);
+                pesoActIdealFrag.setText(pesoActInfoFrag.getText());
             }
         });
     }

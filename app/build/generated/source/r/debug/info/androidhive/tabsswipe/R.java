@@ -18,24 +18,25 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f080025;
-        public static final int btButton=0x7f080021;
-        public static final int btButton1=0x7f080024;
+        public static final int action_settings=0x7f080027;
+        public static final int btButton1=0x7f080026;
         public static final int checkBox=0x7f08001d;
         public static final int checkBox1=0x7f08000e;
         public static final int checkBox2=0x7f08001e;
         public static final int checkBox3=0x7f08001f;
         public static final int checkBox4=0x7f080020;
-        public static final int editText=0x7f080022;
+        public static final int editText=0x7f080025;
         public static final int editText10=0x7f080002;
-        public static final int editText11=0x7f080005;
         public static final int editText12=0x7f080008;
         public static final int editText13=0x7f08000b;
         public static final int editText2=0x7f08000f;
         public static final int editText3=0x7f080012;
-        public static final int peso =0x7f080017;
         public static final int editText5=0x7f080019;
+        public static final int est=0x7f080022;
+        public static final int infoButton=0x7f080021;
         public static final int pager=0x7f080000;
+        public static final int peso=0x7f080017;
+        public static final int pesoAct=0x7f080005;
         public static final int radioButton=0x7f080015;
         public static final int radioButton2=0x7f080016;
         public static final int radioGroup=0x7f080014;
@@ -48,7 +49,7 @@ public final class R {
         public static final int textView16=0x7f080009;
         public static final int textView17=0x7f08000a;
         public static final int textView18=0x7f08000c;
-        public static final int textView19=0x7f080023;
+        public static final int textView19=0x7f080024;
         public static final int textView3=0x7f08000d;
         public static final int textView4=0x7f080010;
         public static final int textView5=0x7f080018;
@@ -56,6 +57,7 @@ public final class R {
         public static final int textView7=0x7f08001a;
         public static final int textView8=0x7f080011;
         public static final int textView9=0x7f080013;
+        public static final int updateNot=0x7f080023;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;

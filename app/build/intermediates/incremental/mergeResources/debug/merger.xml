@@ -71,15 +71,15 @@
             <file
                 path="/home/fer/Documents/Tabs/app/src/main/res/values/strings.xml"
                 qualifiers="" >
-                <string name="imc" >IMC:
-                </string>
                 <string name="act" >Actualizar
                 </string>
-                <string name="asm" >Asma
+                <string name="imc" >IMC:
+                </string>
+                <string name="action_settings" >Settings
                 </string>
                 <string name="cal" >Calculadora
                 </string>
-                <string name="action_settings" >Settings
+                <string name="asm" >Asma
                 </string>
                 <string name="hello_blank_fragment" >Hello blank fragment
                 </string>
@@ -117,9 +117,9 @@
                 </string>
                 <string name="pesac" >Peso Actual:
                 </string>
-                <string name="peso" >Peso:
-                </string>
                 <string name="inf" >Información
+                </string>
+                <string name="peso" >Peso:
                 </string>
                 <string name="pesi" >Peso Ideal:
                 </string>
