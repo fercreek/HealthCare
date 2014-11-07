@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello_world">Hello world!</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_name">Ejercicio</string>
+    <string name="name">Nombre:</string>
+    <string name="action_settings">Settings</string>
+    <string name="peso">Peso:</string>
+    <string name="kg">Kg</string>
+    <string name="edad">Edad:</string>
+    <string name="sex">Sexo:</string>
+    <string name="masc">Masculino</string>
+    <string name="fem">Femenino</string>
+    <string name="est">Estatura:</string>
+    <string name="enf">Enfermedades:</string>
+    <string name="act">Actualizar</string>
+    <string name="cm">Cm</string>
+    <string name="inf">Información</string>
+    <string name="eje">Ejercicio</string>
+    <string name="cal">Calculadora</string>
+    <string name="ide">Ideales</string>
+    <string name="cons">Consejos</string>
+    <string name="pesi">Peso Ideal:</string>
+    <string name="pesac">Peso Actual:</string>
+    <string name="pesp">Peso Perdido:</string>
+    <string name="imc">IMC:</string>
+    <string name="tabla">Tabla de Información de IMC</string>
+    <string name="deja">Dejanos tu consejo:</string>
+    <string name="enten">¡Entendido!</string>
+    <string name="asm">Asma</string>
+    <string name="arri">Arritmia</string>
+    <string name="hiper">Hipertensión</string>
+    <string name="card">Cardiovasculares</string>
+    <string name="diab">Diabetes</string>
+
+</resources>
