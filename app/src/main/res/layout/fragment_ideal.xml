@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="#fa6a6a" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pesi"
+        android:id="@+id/textpesoide"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pesoIdeal"
+        android:ems="3"
+        android:layout_alignTop="@+id/textpesoide"
+        android:layout_toStartOf="@+id/textkg"
+        android:layout_toRightOf="@+id/textpesoide"
+        android:layout_toEndOf="@+id/textpesoide"
+        android:layout_toLeftOf="@+id/textkg" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/kg"
+        android:id="@+id/textkg"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_above="@+id/pesoAct"
+        android:layout_alignRight="@+id/textinfoimc"
+        android:layout_alignEnd="@+id/textinfoimc" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pesac"
+        android:id="@+id/textpesoact"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_below="@+id/pesoIdeal"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pesoAct"
+        android:ems="3"
+        android:layout_alignTop="@+id/textpesoact"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/kg"
+        android:id="@+id/textkg1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_alignBottom="@+id/pesoAct"
+        android:layout_toEndOf="@+id/pesoAct"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pesp"
+        android:id="@+id/textpesoper"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_below="@+id/pesoAct"
+        android:layout_alignParentStart="true"
+        android:visibility="invisible" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pesoPer"
+        android:ems="3"
+        android:layout_alignTop="@+id/textpesoper"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/kg"
+        android:id="@+id/textkg2"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_alignBottom="@+id/pesoPer"
+        android:layout_toEndOf="@+id/pesoAct"
+        android:visibility="invisible" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/imc"
+        android:id="@+id/textimc"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_below="@+id/pesoPer"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/IMC"
+        android:ems="3"
+        android:layout_alignTop="@+id/textimc"
+        android:layout_alignRight="@+id/textkg2"
+        android:layout_alignEnd="@+id/textkg2"
+        android:layout_alignLeft="@+id/pesoPer"
+        android:layout_alignStart="@+id/pesoPer" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tabla"
+        android:id="@+id/textinfoimc"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_below="@+id/IMC"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/infoIMC"
+        android:layout_below="@+id/textinfoimc"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

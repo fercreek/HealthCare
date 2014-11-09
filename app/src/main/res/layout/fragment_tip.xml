@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#17df0d">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/deja"
+        android:id="@+id/textconsejo"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textentendido"
+        android:text="@string/enten"
+        android:ems="5"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginBottom="155dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+    
+
+</RelativeLayout>
