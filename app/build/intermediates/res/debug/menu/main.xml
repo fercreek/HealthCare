@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
 
     <item
@@ -8,3 +9,16 @@
 
 </menu>
 <!-- From: file:/home/fer/Downloads/HealthCare-master/app/src/main/res/menu/main.xml -->
+||||||| merged common ancestors
+=======
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+
+</menu>
+<!-- From: file:/home/fer/Documents/Tabs/app/src/main/res/menu/main.xml -->
+>>>>>>> a5bbe15c2a22c334ad79d0b6034e24c7ef16c4c0

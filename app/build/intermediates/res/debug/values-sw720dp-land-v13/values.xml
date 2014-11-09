@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
@@ -7,3 +8,15 @@
     <dimen name="activity_horizontal_margin">128dp</dimen>
 
 </resources>
+||||||| merged common ancestors
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/home/fer/Documents/Tabs/app/src/main/res/values-sw720dp-land/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="activity_horizontal_margin">128dp</dimen>
+
+</resources>
+>>>>>>> a5bbe15c2a22c334ad79d0b6034e24c7ef16c4c0

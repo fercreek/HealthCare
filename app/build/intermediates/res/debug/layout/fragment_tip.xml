@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -27,3 +28,43 @@
     
 
 </RelativeLayout><!-- From: file:/home/fer/Downloads/HealthCare-master/app/src/main/res/layout/fragment_tip.xml -->
+||||||| merged common ancestors
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#17df0d">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/deja"
+        android:id="@+id/textView19"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="16"
+        android:id="@+id/editText"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/textView19"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btButton1"
+        android:text="@string/enten"
+        android:ems="10"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="101dp" />
+    
+
+</RelativeLayout><!-- From: file:/home/fer/Documents/Tabs/app/src/main/res/layout/fragment_tip.xml -->
+>>>>>>> a5bbe15c2a22c334ad79d0b6034e24c7ef16c4c0
