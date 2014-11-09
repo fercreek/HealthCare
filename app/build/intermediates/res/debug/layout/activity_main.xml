@@ -1,16 +1,6 @@
-<<<<<<< HEAD
 <android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/pager"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-</android.support.v4.view.ViewPager><!-- From: file:/home/fer/Downloads/HealthCare-master/app/src/main/res/layout/activity_main.xml -->
-||||||| merged common ancestors
-=======
-<android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/pager"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-</android.support.v4.view.ViewPager><!-- From: file:/home/fer/Documents/Tabs/app/src/main/res/layout/activity_main.xml -->
->>>>>>> a5bbe15c2a22c334ad79d0b6034e24c7ef16c4c0
+</android.support.v4.view.ViewPager><!-- From: file:/home/fer/Documents/HealthCare-master/app/src/main/res/layout/activity_main.xml -->

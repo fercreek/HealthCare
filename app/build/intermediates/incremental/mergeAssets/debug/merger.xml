@@ -1,32 +1,14 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <merger version="2" >
 
     <dataSet config="21.0.0" >
-        <source path="/home/fer/Downloads/HealthCare-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/assets" />
+        <source path="/home/fer/Documents/HealthCare-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/assets" />
     </dataSet>
     <dataSet config="main" >
-        <source path="/home/fer/Downloads/HealthCare-master/app/src/main/assets" />
+        <source path="/home/fer/Documents/HealthCare-master/app/src/main/assets" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="/home/fer/Downloads/HealthCare-master/app/src/debug/assets" />
+        <source path="/home/fer/Documents/HealthCare-master/app/src/debug/assets" />
     </dataSet>
 
 </merger>
-||||||| merged common ancestors
-=======
-<?xml version="1.0" encoding="utf-8"?>
-<merger version="2" >
-
-    <dataSet config="21.0.0" >
-        <source path="/home/fer/Documents/Tabs/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/assets" />
-    </dataSet>
-    <dataSet config="main" >
-        <source path="/home/fer/Documents/Tabs/app/src/main/assets" />
-    </dataSet>
-    <dataSet config="debug" >
-        <source path="/home/fer/Documents/Tabs/app/src/debug/assets" />
-    </dataSet>
-
-</merger>
->>>>>>> a5bbe15c2a22c334ad79d0b6034e24c7ef16c4c0
