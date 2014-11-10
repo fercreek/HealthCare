@@ -2,13 +2,13 @@
 <merger version="2" >
 
     <dataSet config="21.0.0" >
-        <source path="/home/fer/Documents/HealthCare-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/assets" />
+        <source path="/home/fer/Documents/HealthCare/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/assets" />
     </dataSet>
     <dataSet config="main" >
-        <source path="/home/fer/Documents/HealthCare-master/app/src/main/assets" />
+        <source path="/home/fer/Documents/HealthCare/app/src/main/assets" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="/home/fer/Documents/HealthCare-master/app/src/debug/assets" />
+        <source path="/home/fer/Documents/HealthCare/app/src/debug/assets" />
     </dataSet>
 
 </merger>

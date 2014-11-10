@@ -5,6 +5,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.CheckBox;
 import android.widget.TextView;
 
 import info.androidhive.tabsswipe.R;
@@ -20,7 +21,6 @@ public class IdealFragment extends Fragment {
 
         return rootView;
     }
-
 
 
 }

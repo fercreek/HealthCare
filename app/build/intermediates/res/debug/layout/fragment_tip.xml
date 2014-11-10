@@ -2,28 +2,32 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" 
+    android:orientation="vertical"
     android:background="#17df0d">
 
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/deja"
-        android:id="@+id/textconsejo"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textentendido"
-        android:text="@string/enten"
-        android:ems="5"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:layout_marginBottom="155dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
-    
+    <ScrollView android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+        android:id="@+id/scroll">
 
-</RelativeLayout><!-- From: file:/home/fer/Documents/HealthCare-master/app/src/main/res/layout/fragment_tip.xml -->
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/linear">
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/c1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout><!-- From: file:/home/fer/Documents/HealthCare/app/src/main/res/layout/fragment_tip.xml -->

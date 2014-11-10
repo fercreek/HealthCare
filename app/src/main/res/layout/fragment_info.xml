@@ -34,7 +34,7 @@
         android:text="@string/edad"
         android:id="@+id/textedad"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:layout_toEndOf="@+id/textsexo"
+
         android:layout_below="@+id/edtnombre"
         android:layout_alignLeft="@+id/textsexo"
         android:layout_alignStart="@+id/textsexo" />
@@ -75,7 +75,7 @@
             android:id="@+id/rbmasc"
             android:layout_below="@+id/textView4"
             android:layout_alignTop="@+id/textView8"
-            android:layout_alignStart="@+id/editText2" />
+            android:layout_alignStart="@+id/check4" />
 
         <RadioButton
             android:layout_width="wrap_content"
@@ -83,7 +83,7 @@
             android:text="@string/fem"
             android:id="@+id/rbfem"
             android:layout_alignTop="@+id/radioButton"
-            android:layout_alignEnd="@+id/editText2" />
+            android:layout_alignEnd="@+id/check4" />
         </RadioGroup>
         <TextView
             android:layout_width="wrap_content"
@@ -194,7 +194,6 @@
             android:text="@string/diab"
             android:id="@+id/checkdiabetes"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_toEndOf="@+id/edtestatura"
             android:layout_below="@+id/checkarritmia"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true" />
@@ -204,7 +203,6 @@
             android:text="@string/act"
             android:id="@+id/infoButton"
             android:ems="10"
-            android:layout_toEndOf="@+id/textenfermedades"
             android:layout_below="@+id/checkdiabetes"
             android:layout_marginTop="45dp"
             android:layout_alignRight="@+id/checkhipertension"
@@ -216,7 +214,6 @@
         android:text="@string/est"
         android:id="@+id/textestatura"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:layout_toStartOf="@+id/radioGroup"
         android:layout_below="@+id/peso"
         android:layout_alignLeft="@+id/textpeso"
         android:layout_alignStart="@+id/textpeso" />

@@ -19,18 +19,20 @@ public final class R {
     }
     public static final class id {
         public static final int IMC=0x7f08000c;
-        public static final int action_settings=0x7f08002b;
+        public static final int action_settings=0x7f08002c;
+        public static final int c1=0x7f08002b;
+        public static final int check4=0x7f080019;
         public static final int checkarritmia=0x7f08000f;
         public static final int checkasma=0x7f080022;
         public static final int checkcardio=0x7f080024;
         public static final int checkdiabetes=0x7f080025;
         public static final int checkhipertension=0x7f080023;
-        public static final int editText2=0x7f080019;
         public static final int edtedad=0x7f080013;
         public static final int edtestatura=0x7f08001e;
         public static final int edtnombre=0x7f080010;
         public static final int infoButton=0x7f080026;
         public static final int infoIMC=0x7f08000d;
+        public static final int linear=0x7f08002a;
         public static final int nombre=0x7f08000e;
         public static final int pager=0x7f080000;
         public static final int peso=0x7f08001c;
@@ -41,14 +43,13 @@ public final class R {
         public static final int radioGroup=0x7f080015;
         public static final int rbfem=0x7f08001a;
         public static final int rbmasc=0x7f080016;
+        public static final int scroll=0x7f080029;
         public static final int textView4=0x7f080017;
         public static final int textView6=0x7f080020;
         public static final int textView8=0x7f080018;
         public static final int textcm=0x7f08001f;
-        public static final int textconsejo=0x7f080029;
         public static final int textedad=0x7f080011;
         public static final int textenfermedades=0x7f080021;
-        public static final int textentendido=0x7f08002a;
         public static final int textestatura=0x7f080027;
         public static final int textimc=0x7f08000b;
         public static final int textinfoimc=0x7f080005;

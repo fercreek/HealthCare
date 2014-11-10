@@ -2,12 +2,12 @@
 <merger version="2" >
 
     <dataSet config="21.0.0" >
-        <source path="/home/fer/Documents/HealthCare-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/res" />
+        <source path="/home/fer/Documents/HealthCare/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/res" />
     </dataSet>
     <dataSet config="main" >
-        <source path="/home/fer/Documents/HealthCare-master/app/src/main/res" >
+        <source path="/home/fer/Documents/HealthCare/app/src/main/res" >
             <file
-                path="/home/fer/Documents/HealthCare-master/app/src/main/res/values-v11/styles.xml"
+                path="/home/fer/Documents/HealthCare/app/src/main/res/values-v11/styles.xml"
                 qualifiers="v11" >
 
                 <style
@@ -19,36 +19,36 @@
             </file>
             <file
                 name="fragment_info"
-                path="/home/fer/Documents/HealthCare-master/app/src/main/res/layout/fragment_info.xml"
+                path="/home/fer/Documents/HealthCare/app/src/main/res/layout/fragment_info.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="fragment_ideal"
-                path="/home/fer/Documents/HealthCare-master/app/src/main/res/layout/fragment_ideal.xml"
+                path="/home/fer/Documents/HealthCare/app/src/main/res/layout/fragment_ideal.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="activity_main"
-                path="/home/fer/Documents/HealthCare-master/app/src/main/res/layout/activity_main.xml"
+                path="/home/fer/Documents/HealthCare/app/src/main/res/layout/activity_main.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="fragment_calc"
-                path="/home/fer/Documents/HealthCare-master/app/src/main/res/layout/fragment_calc.xml"
+                path="/home/fer/Documents/HealthCare/app/src/main/res/layout/fragment_calc.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="fragment_exer"
-                path="/home/fer/Documents/HealthCare-master/app/src/main/res/layout/fragment_exer.xml"
+                path="/home/fer/Documents/HealthCare/app/src/main/res/layout/fragment_exer.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="fragment_tip"
-                path="/home/fer/Documents/HealthCare-master/app/src/main/res/layout/fragment_tip.xml"
+                path="/home/fer/Documents/HealthCare/app/src/main/res/layout/fragment_tip.xml"
                 qualifiers=""
                 type="layout" />
             <file
-                path="/home/fer/Documents/HealthCare-master/app/src/main/res/values-v14/styles.xml"
+                path="/home/fer/Documents/HealthCare/app/src/main/res/values-v14/styles.xml"
                 qualifiers="v14" >
 
                 <style
@@ -60,16 +60,16 @@
             </file>
             <file
                 name="ic_launcher"
-                path="/home/fer/Documents/HealthCare-master/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+                path="/home/fer/Documents/HealthCare/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
                 qualifiers="xxhdpi-v4"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/home/fer/Documents/HealthCare-master/app/src/main/res/drawable-mdpi/ic_launcher.png"
+                path="/home/fer/Documents/HealthCare/app/src/main/res/drawable-mdpi/ic_launcher.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
-                path="/home/fer/Documents/HealthCare-master/app/src/main/res/values/strings.xml"
+                path="/home/fer/Documents/HealthCare/app/src/main/res/values/strings.xml"
                 qualifiers="" >
                 <string name="act" >Actualizar
                 </string>
@@ -137,7 +137,7 @@
                 </string>
             </file>
             <file
-                path="/home/fer/Documents/HealthCare-master/app/src/main/res/values/styles.xml"
+                path="/home/fer/Documents/HealthCare/app/src/main/res/values/styles.xml"
                 qualifiers="" >
 
                 <style
@@ -159,7 +159,7 @@
                 </style>
             </file>
             <file
-                path="/home/fer/Documents/HealthCare-master/app/src/main/res/values/dimens.xml"
+                path="/home/fer/Documents/HealthCare/app/src/main/res/values/dimens.xml"
                 qualifiers="" >
                 <dimen name="activity_horizontal_margin" >16dp
                 </dimen>
@@ -167,32 +167,32 @@
                 </dimen>
             </file>
             <file
-                path="/home/fer/Documents/HealthCare-master/app/src/main/res/values-sw720dp-land/dimens.xml"
+                path="/home/fer/Documents/HealthCare/app/src/main/res/values-sw720dp-land/dimens.xml"
                 qualifiers="sw720dp-land-v13" >
                 <dimen name="activity_horizontal_margin" >128dp
                 </dimen>
             </file>
             <file
                 name="main"
-                path="/home/fer/Documents/HealthCare-master/app/src/main/res/menu/main.xml"
+                path="/home/fer/Documents/HealthCare/app/src/main/res/menu/main.xml"
                 qualifiers=""
                 type="menu" />
             <file
                 name="ic_launcher"
-                path="/home/fer/Documents/HealthCare-master/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+                path="/home/fer/Documents/HealthCare/app/src/main/res/drawable-xhdpi/ic_launcher.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/home/fer/Documents/HealthCare-master/app/src/main/res/drawable-hdpi/ic_launcher.png"
+                path="/home/fer/Documents/HealthCare/app/src/main/res/drawable-hdpi/ic_launcher.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
         </source>
-        <source path="/home/fer/Documents/HealthCare-master/app/build/generated/res/rs/debug" />
-        <source path="/home/fer/Documents/HealthCare-master/app/build/generated/res/generated/debug" />
+        <source path="/home/fer/Documents/HealthCare/app/build/generated/res/rs/debug" />
+        <source path="/home/fer/Documents/HealthCare/app/build/generated/res/generated/debug" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="/home/fer/Documents/HealthCare-master/app/src/debug/res" />
+        <source path="/home/fer/Documents/HealthCare/app/src/debug/res" />
     </dataSet>
 
 </merger>
