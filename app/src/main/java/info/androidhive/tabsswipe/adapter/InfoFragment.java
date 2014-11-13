@@ -78,6 +78,19 @@ public class InfoFragment extends Fragment {
     public void onStart() {
         super.onStart();
 
+        CheckBox boxasma = (CheckBox)getActivity().findViewById(R.id.checkasma);
+        boxasma.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean isChecked) {
+                if(isChecked) {
+                    MainActivity.setAsma(true);
+                }
+                else{
+                    MainActivity.setAsma(false);
+                }
+            }
+        });
+
         Button update = (Button)getActivity().findViewById(R.id.infoButton);
         update.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -117,26 +130,14 @@ public class InfoFragment extends Fragment {
                 //Settea los contenidos en sus respectivos campos
                 pesoActIdealFrag.setText(pesoActInfoFrag.getText());
                 IMCActIdealaFrag.setText(IMC);
-                final MainActivity main = new MainActivity();
-                CheckBox boxasma = (CheckBox)getActivity().findViewById(R.id.checkasma);
-                boxasma.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-                    @Override
-                    public void onCheckedChanged(CompoundButton compoundButton, boolean isChecked) {
-                        if(isChecked) {
-                            main.setAsma(true);
-                        }
-                        else{
-                            main.setAsma(false);
-                        }
-                    }
-                });
+
 //                if (boxasma.isChecked()){
 //                    EditText edit = (EditText)getActivity().findViewById(R.id.olakaset);
 //                    edit.setText("mmeh");
 //                }
                 //Notificacion
-                TextView msg = (TextView)getActivity().findViewById(R.id.updateNot);
-                Toast.makeText(getActivity(), msg.getText(), Toast.LENGTH_SHORT).show();
+//                TextView msg = (TextView)getActivity().findViewById(R.id.updateNot);
+//                Toast.makeText(getActivity(), msg.getText(), Toast.LENGTH_SHORT).show();
             }
         });
     }

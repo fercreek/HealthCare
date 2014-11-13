@@ -7,16 +7,23 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class ExcerciseFragment extends Fragment {
-    MainActivity main = new MainActivity();
-
     @Override
     public void onResume() {
-//        EditText edit = (EditText)getActivity().findViewById(R.id.olakaset);
-//        if (main.isAsma()){
-//            edit.setText("meh");
-//        }
+        EditText edit = (EditText)getActivity().findViewById(R.id.olakaset);
+
+        Toast.makeText(getActivity(), MainActivity.isAsma()?"tru":"fals", Toast.LENGTH_SHORT).show();
+
+        if (MainActivity.isAsma()){
+
+//            MainActivity.asma= Boolean.parseBoolean(null);
+            edit.setText("good");
+        }else{
+//            MainActivity.asma= Boolean.parseBoolean(null);
+            edit.setText("bad");
+        }
         super.onResume();
     }
 

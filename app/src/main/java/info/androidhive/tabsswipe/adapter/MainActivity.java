@@ -17,16 +17,16 @@ import android.widget.Toast;
 public class MainActivity extends FragmentActivity implements
 		ActionBar.TabListener {
 
-    private boolean asma = false;
+    public static boolean asma ;
 	private ViewPager viewPager;
 	private TabsPagerAdapter mAdapter;
 	private ActionBar actionBar;
 
-    public boolean isAsma() {
+    public static boolean isAsma() {
         return asma;
     }
-    public void setAsma(boolean asma) {
-        this.asma = asma;
+    public static void setAsma(boolean asmaCheck) {
+        asma = asmaCheck;
     }
 
 	private String[] tabs = { "Datos", "Ideales", "Ejercicios", "Tips", "Calculadora"};
