@@ -11,14 +11,24 @@ import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
+import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends FragmentActivity implements
 		ActionBar.TabListener {
 
+    private boolean asma = false;
 	private ViewPager viewPager;
 	private TabsPagerAdapter mAdapter;
 	private ActionBar actionBar;
-	// Tab titles
+
+    public boolean isAsma() {
+        return asma;
+    }
+    public void setAsma(boolean asma) {
+        this.asma = asma;
+    }
+
 	private String[] tabs = { "Datos", "Ideales", "Ejercicios", "Tips", "Calculadora"};
 
 	@TargetApi(Build.VERSION_CODES.ICE_CREAM_SANDWICH)

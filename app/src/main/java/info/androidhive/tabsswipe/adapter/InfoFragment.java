@@ -8,6 +8,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.CheckBox;
+import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -24,8 +26,8 @@ public class InfoFragment extends Fragment {
     private TextView comentIMC;
     private TextView pesoIdeal;
 
-    private Double imc;
 
+    private Double imc;
     private Double pesoIdealText;
 
     private String PIT;
@@ -80,20 +82,17 @@ public class InfoFragment extends Fragment {
         update.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                TextView msg = (TextView)getActivity().findViewById(R.id.updateNot);
-                Toast.makeText(getActivity(), msg.getText(), Toast.LENGTH_SHORT).show();
-
-
                 //Busca el contenido de los EditText
                 pesoActInfoFrag  = (EditText)getActivity().findViewById(R.id.peso);
                 EstatActInfoFrag = (EditText)getActivity().findViewById(R.id.edtestatura);
 
+//Paso de EditText a String
                 String pesoActInfoFragInt = pesoActInfoFrag.getText().toString();
                 String EstatActInfoFragInt = EstatActInfoFrag.getText().toString();
 
-                Integer peso = new Integer(pesoActInfoFragInt).intValue();
-                Double estat = new Double(EstatActInfoFragInt).doubleValue();
+//Cambio de String a Double
+                Integer peso = Integer.valueOf(pesoActInfoFragInt);
+                Double estat = Double.valueOf(EstatActInfoFragInt);
 
                 //Formula
                 imc = (peso/Math.pow(estat,2));
@@ -114,9 +113,30 @@ public class InfoFragment extends Fragment {
                 pesoIdeal = (TextView)getActivity().findViewById(R.id.pesoIdeal);
 
                 setts(PIT,imc);
+
                 //Settea los contenidos en sus respectivos campos
                 pesoActIdealFrag.setText(pesoActInfoFrag.getText());
                 IMCActIdealaFrag.setText(IMC);
+                final MainActivity main = new MainActivity();
+                CheckBox boxasma = (CheckBox)getActivity().findViewById(R.id.checkasma);
+                boxasma.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+                    @Override
+                    public void onCheckedChanged(CompoundButton compoundButton, boolean isChecked) {
+                        if(isChecked) {
+                            main.setAsma(true);
+                        }
+                        else{
+                            main.setAsma(false);
+                        }
+                    }
+                });
+//                if (boxasma.isChecked()){
+//                    EditText edit = (EditText)getActivity().findViewById(R.id.olakaset);
+//                    edit.setText("mmeh");
+//                }
+                //Notificacion
+                TextView msg = (TextView)getActivity().findViewById(R.id.updateNot);
+                Toast.makeText(getActivity(), msg.getText(), Toast.LENGTH_SHORT).show();
             }
         });
     }

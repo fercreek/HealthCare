@@ -103,7 +103,8 @@
             android:id="@+id/peso"
             android:ems="3"
             android:layout_alignStart="@id/edtnombre"
-            android:layout_alignTop="@id/textpeso" />
+            android:layout_alignTop="@id/textpeso"
+            android:text="10" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -132,7 +133,8 @@
             android:inputType="text"
             android:ems="3"
             android:layout_alignTop="@id/textView6"
-            android:layout_alignStart="@id/edtnombre"/>
+            android:layout_alignStart="@id/edtnombre"
+            android:text="10" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
