@@ -25,55 +25,55 @@ public class TipFragment extends Fragment {
         datos2.clear();
 
         if (MainActivity.sobrepeso || MainActivity.obesidad1 ||MainActivity.obesidad2 ||MainActivity.obesidad3){
-            datos2.add(new Lista_entrada(R.drawable.caminar,"Personas con sobrepeso",
+            datos2.add(new Lista_entrada(R.drawable.sobrepeso,"Personas con sobrepeso",
                     "Controla lo que comes evita las grasas\n" +
                     "Comienza caminando siempre 15 minutos\n" +
                     "No esperes resultados al instante, tardaran pero llegaran.\n" +
                     "Vamos, Tu puedes!\n" +
                     "Intenta comer mas verduras."));
         }else if (MainActivity.pesonormal){
-            datos2.add(new Lista_entrada(R.drawable.caminar,"Personas con peso regular",
+            datos2.add(new Lista_entrada(R.drawable.normal,"Personas con peso regular",
                     "Se constante, haz  una actividad diaria\n" +
                     "Siempre da un esfuerzo extra\n" +
                     "Evita tomar ingerir  bebidas alcohólicas\n" +
                     "Ten una dieta balanceada"));
         }else if (MainActivity.pesobajo) {
-            datos2.add(new Lista_entrada(R.drawable.caminar, "Personas delgadas",
+            datos2.add(new Lista_entrada(R.drawable.delgadas, "Personas delgadas",
                     "Come más carne para evitar enfermedades\n" +
                     "Toma suplementos, pero pide recomendación de un especialista\n" +
                     "Desayuna algo que te de energía.\n" +
                     "Has un poco más de repeticiones para ganar más masa muscular"));
         }
         if (MainActivity.asma) {
-            datos2.add(new Lista_entrada(R.drawable.caminar, "Para personas asmáticas",
+            datos2.add(new Lista_entrada(R.drawable.asma, "Para personas asmáticas",
                     "Esfuérzate pero hasta que te sientas bien, no hagas  sobresfuerzos\n" +
                     "Trata de tener tu medicina por si pasa una emergencia.\n" +
                     "Has poco a poco las actividades de cardiovasculares.\n" +
                     "Come alimentos alto en energía"));
         }
         if (MainActivity.arritmia) {
-            datos2.add(new Lista_entrada(R.drawable.caminar, "Para personas con reumatismo",
+            datos2.add(new Lista_entrada(R.drawable.reuma, "Para personas con reumatismo",
                     "Evita ingerir sustancias como  café, alcohol y como el tabaco.\n" +
                     " Controla tu estrés.\n" +
                     "No comas demasiado grasas y azucares.\n" +
                     "Se constante con la actividad física"));
         }
         if (MainActivity.hipertension) {
-            datos2.add(new Lista_entrada(R.drawable.caminar, "Para personas asmáticas",
+            datos2.add(new Lista_entrada(R.drawable.hiper, "Para personas asmáticas",
                     "Controle su peso\n" +
                     "Reduzca el consumo de sal y coma alimentos saludables.\n" +
                     "Evite el consumo excesivo de alcohol.\n" +
                     "Tome sus medicamentos"));
         }
         if (MainActivity.cardiov) {
-            datos2.add(new Lista_entrada(R.drawable.caminar, "Para personas asmáticas",
+            datos2.add(new Lista_entrada(R.drawable.cardio , "Para personas asmáticas",
                     "Sigue una dieta balanceada.\n" +
                     "Aumenta el consumo de frutas y verduras\n" +
                     "No abusar de las bebidas alcohólicas y dejar el tabaco por completo.\n" +
                     "Mantener controlados los niveles de colesterol y glucosa."));
         }
         if (MainActivity.diabetes) {
-            datos2.add(new Lista_entrada(R.drawable.caminar, "Para personas asmáticas",
+            datos2.add(new Lista_entrada(R.drawable.diabetes, "Para personas asmáticas",
                     "No comer tantos alimentos con azúcar ni grasas\n" +
                     "Come mucho carbohidratos para tener energía\n" +
                     "Toma la insulina para mantenerte activo.\n" +
