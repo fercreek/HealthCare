@@ -4,30 +4,10 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#17df0d">
-
-
-    <ScrollView android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-        android:id="@+id/scroll">
-
-
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:id="@+id/linear">
-
-
-        </LinearLayout>
-    </ScrollView>
-
-    <TextView
-        android:layout_width="wrap_content"
+    <ListView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="New Text"
-        android:id="@+id/c1"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:id="@+id/listView2"
+        android:layout_gravity="center_horizontal" />
 
-
-</RelativeLayout><!-- From: file:/home/usuario1/Documents/HealthCare/app/src/main/res/layout/fragment_tip.xml -->
+</RelativeLayout><!-- From: file:/home/fer/Documents/HealthCare/app/src/main/res/layout/fragment_tip.xml -->

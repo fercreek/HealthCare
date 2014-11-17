@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/home/usuario1/Documents/HealthCare/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/home/fer/Documents/HealthCare/app/src/main/res/values/dimens.xml -->
     <eat-comment />
 
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/home/usuario1/Documents/HealthCare/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/fer/Documents/HealthCare/app/src/main/res/values/strings.xml -->
     <eat-comment />
 
     <string name="act">Actualizar</string>
     <string name="action_settings">Settings</string>
     <string name="app_name">Ejercicio</string>
-    <string name="arri">Arritmia</string>
+    <string name="arri">Reuma</string>
     <string name="asm">Asma</string>
+    <string name="bici">Tratar de mantener el paso 5 a 10 minutos a una intensidad de entre 4-5 al
+    principio y aumentaremos cada semana en 1 minuto hasta llegar a unos 15 minutos a esa
+    misma intensidad.</string>
     <string name="cal">Calculadora</string>
     <string name="card">Cardiovasculares</string>
     <string name="cm">mts</string>
@@ -41,7 +44,7 @@
     <string name="pesp">Peso Perdido:</string>
     <string name="sex">Sexo:</string>
     <string name="tabla">Tabla de Información de IMC</string>
-    <!-- From: file:/home/usuario1/Documents/HealthCare/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/home/fer/Documents/HealthCare/app/src/main/res/values/styles.xml -->
     <eat-comment />
 
     <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">

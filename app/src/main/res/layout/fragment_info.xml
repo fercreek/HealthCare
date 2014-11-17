@@ -16,8 +16,7 @@
         android:id="@+id/nombre"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_alignParentTop="true"
-        android:layout_alignRight="@+id/checkarritmia"
-        android:layout_alignEnd="@+id/checkarritmia" />
+        android:layout_alignRight="@+id/checkarritmia" />
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

@@ -2,28 +2,179 @@
 <merger version="2" >
 
     <dataSet config="21.0.0" >
-        <source path="/home/usuario1/Documents/HealthCare/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/res" />
+        <source path="/home/fer/Documents/HealthCare/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/res" />
     </dataSet>
     <dataSet config="main" >
-        <source path="/home/usuario1/Documents/HealthCare/app/src/main/res" >
+        <source path="/home/fer/Documents/HealthCare/app/src/main/res" >
             <file
-                path="/home/usuario1/Documents/HealthCare/app/src/main/res/values-sw720dp-land/dimens.xml"
-                qualifiers="sw720dp-land-v13" >
-                <dimen name="activity_horizontal_margin" >128dp
-                </dimen>
+                path="/home/fer/Documents/HealthCare/app/src/main/res/values-v11/styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                name="entrada"
+                path="/home/fer/Documents/HealthCare/app/src/main/res/layout/entrada.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_info"
+                path="/home/fer/Documents/HealthCare/app/src/main/res/layout/fragment_info.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="listado"
+                path="/home/fer/Documents/HealthCare/app/src/main/res/layout/listado.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_ideal"
+                path="/home/fer/Documents/HealthCare/app/src/main/res/layout/fragment_ideal.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_main"
+                path="/home/fer/Documents/HealthCare/app/src/main/res/layout/activity_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_calc"
+                path="/home/fer/Documents/HealthCare/app/src/main/res/layout/fragment_calc.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_exer"
+                path="/home/fer/Documents/HealthCare/app/src/main/res/layout/fragment_exer.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="listado2"
+                path="/home/fer/Documents/HealthCare/app/src/main/res/layout/listado2.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_tip"
+                path="/home/fer/Documents/HealthCare/app/src/main/res/layout/fragment_tip.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="entrada2"
+                path="/home/fer/Documents/HealthCare/app/src/main/res/layout/entrada2.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                path="/home/fer/Documents/HealthCare/app/src/main/res/values-v14/styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
             </file>
             <file
                 name="ic_launcher"
-                path="/home/usuario1/Documents/HealthCare/app/src/main/res/drawable-mdpi/ic_launcher.png"
+                path="/home/fer/Documents/HealthCare/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="cuerda"
+                path="/home/fer/Documents/HealthCare/app/src/main/res/drawable-mdpi/cuerda.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="paloma"
+                path="/home/fer/Documents/HealthCare/app/src/main/res/drawable-mdpi/paloma.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="bici"
+                path="/home/fer/Documents/HealthCare/app/src/main/res/drawable-mdpi/bici.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="im_cuervo"
+                path="/home/fer/Documents/HealthCare/app/src/main/res/drawable-mdpi/im_cuervo.jpg"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="lagartijas"
+                path="/home/fer/Documents/HealthCare/app/src/main/res/drawable-mdpi/lagartijas.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="sentadillas"
+                path="/home/fer/Documents/HealthCare/app/src/main/res/drawable-mdpi/sentadillas.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="caminar"
+                path="/home/fer/Documents/HealthCare/app/src/main/res/drawable-mdpi/caminar.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="nadar"
+                path="/home/fer/Documents/HealthCare/app/src/main/res/drawable-mdpi/nadar.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="abdominales"
+                path="/home/fer/Documents/HealthCare/app/src/main/res/drawable-mdpi/abdominales.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/home/usuario1/Documents/HealthCare/app/src/main/res/drawable-hdpi/ic_launcher.png"
-                qualifiers="hdpi-v4"
+                path="/home/fer/Documents/HealthCare/app/src/main/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi-v4"
                 type="drawable" />
             <file
-                path="/home/usuario1/Documents/HealthCare/app/src/main/res/values/strings.xml"
+                name="bailar"
+                path="/home/fer/Documents/HealthCare/app/src/main/res/drawable-mdpi/bailar.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="eliptica"
+                path="/home/fer/Documents/HealthCare/app/src/main/res/drawable-mdpi/eliptica.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="zancadillas"
+                path="/home/fer/Documents/HealthCare/app/src/main/res/drawable-mdpi/zancadillas.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="levant_rodilla"
+                path="/home/fer/Documents/HealthCare/app/src/main/res/drawable-mdpi/levant_rodilla.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="burpees"
+                path="/home/fer/Documents/HealthCare/app/src/main/res/drawable-mdpi/burpees.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="trotar"
+                path="/home/fer/Documents/HealthCare/app/src/main/res/drawable-mdpi/trotar.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="bici_estacionaria"
+                path="/home/fer/Documents/HealthCare/app/src/main/res/drawable-mdpi/bici_estacionaria.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="im_loro"
+                path="/home/fer/Documents/HealthCare/app/src/main/res/drawable-mdpi/im_loro.jpg"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                path="/home/fer/Documents/HealthCare/app/src/main/res/values/strings.xml"
                 qualifiers="" >
                 <string name="act" >Actualizar
                 </string>
@@ -49,9 +200,13 @@
                 </string>
                 <string name="card" >Cardiovasculares
                 </string>
-                <string name="arri" >Arritmia
+                <string name="arri" >Reuma
                 </string>
                 <string name="sex" >Sexo:
+                </string>
+                <string name="bici" >Tratar de mantener el paso 5 a 10 minutos a una intensidad de entre 4-5 al
+    principio y aumentaremos cada semana en 1 minuto hasta llegar a unos 15 minutos a esa
+    misma intensidad.
                 </string>
                 <string name="ide" >Ideales
                 </string>
@@ -91,15 +246,7 @@
                 </string>
             </file>
             <file
-                path="/home/usuario1/Documents/HealthCare/app/src/main/res/values/dimens.xml"
-                qualifiers="" >
-                <dimen name="activity_horizontal_margin" >16dp
-                </dimen>
-                <dimen name="activity_vertical_margin" >16dp
-                </dimen>
-            </file>
-            <file
-                path="/home/usuario1/Documents/HealthCare/app/src/main/res/values/styles.xml"
+                path="/home/fer/Documents/HealthCare/app/src/main/res/values/styles.xml"
                 qualifiers="" >
 
                 <style
@@ -121,78 +268,40 @@
                 </style>
             </file>
             <file
-                path="/home/usuario1/Documents/HealthCare/app/src/main/res/values-v14/styles.xml"
-                qualifiers="v14" >
-
-                <style
-                    name="AppBaseTheme"
-                    parent="android:Theme.Holo.Light.DarkActionBar" >
-
-                    <!-- API 14 theme customizations can go here. -->
-                </style>
+                path="/home/fer/Documents/HealthCare/app/src/main/res/values/dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
             </file>
             <file
-                name="ic_launcher"
-                path="/home/usuario1/Documents/HealthCare/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
-                qualifiers="xxhdpi-v4"
-                type="drawable" />
-            <file
-                name="fragment_calc"
-                path="/home/usuario1/Documents/HealthCare/app/src/main/res/layout/fragment_calc.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="activity_main"
-                path="/home/usuario1/Documents/HealthCare/app/src/main/res/layout/activity_main.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="fragment_tip"
-                path="/home/usuario1/Documents/HealthCare/app/src/main/res/layout/fragment_tip.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="fragment_info"
-                path="/home/usuario1/Documents/HealthCare/app/src/main/res/layout/fragment_info.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="fragment_ideal"
-                path="/home/usuario1/Documents/HealthCare/app/src/main/res/layout/fragment_ideal.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="fragment_exer"
-                path="/home/usuario1/Documents/HealthCare/app/src/main/res/layout/fragment_exer.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="ic_launcher"
-                path="/home/usuario1/Documents/HealthCare/app/src/main/res/drawable-xhdpi/ic_launcher.png"
-                qualifiers="xhdpi-v4"
-                type="drawable" />
+                path="/home/fer/Documents/HealthCare/app/src/main/res/values-sw720dp-land/dimens.xml"
+                qualifiers="sw720dp-land-v13" >
+                <dimen name="activity_horizontal_margin" >128dp
+                </dimen>
+            </file>
             <file
                 name="main"
-                path="/home/usuario1/Documents/HealthCare/app/src/main/res/menu/main.xml"
+                path="/home/fer/Documents/HealthCare/app/src/main/res/menu/main.xml"
                 qualifiers=""
                 type="menu" />
             <file
-                path="/home/usuario1/Documents/HealthCare/app/src/main/res/values-v11/styles.xml"
-                qualifiers="v11" >
-
-                <style
-                    name="AppBaseTheme"
-                    parent="android:Theme.Holo.Light" >
-
-                    <!-- API 11 theme customizations can go here. -->
-                </style>
-            </file>
+                name="ic_launcher"
+                path="/home/fer/Documents/HealthCare/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/fer/Documents/HealthCare/app/src/main/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
         </source>
-        <source path="/home/usuario1/Documents/HealthCare/app/build/generated/res/rs/debug" />
-        <source path="/home/usuario1/Documents/HealthCare/app/build/generated/res/generated/debug" />
+        <source path="/home/fer/Documents/HealthCare/app/build/generated/res/rs/debug" />
+        <source path="/home/fer/Documents/HealthCare/app/build/generated/res/generated/debug" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="/home/usuario1/Documents/HealthCare/app/src/debug/res" />
+        <source path="/home/fer/Documents/HealthCare/app/src/debug/res" />
     </dataSet>
 
 </merger>

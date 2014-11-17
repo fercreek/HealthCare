@@ -28,9 +28,11 @@
     <string name="deja">Aqui te dejamos un consejo:</string>
     <string name="enten">¡Entendido!</string>
     <string name="asm">Asma</string>
-    <string name="arri">Arritmia</string>
+    <string name="arri">Reuma</string>
     <string name="hiper">Hipertensión</string>
     <string name="card">Cardiovasculares</string>
     <string name="diab">Diabetes</string>
-
+    <string name="bici">Tratar de mantener el paso 5 a 10 minutos a una intensidad de entre 4-5 al
+    principio y aumentaremos cada semana en 1 minuto hasta llegar a unos 15 minutos a esa
+    misma intensidad.</string>
 </resources>
